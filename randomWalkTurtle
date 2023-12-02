@@ -1,0 +1,13 @@
+from turtle import Turtle, Screen
+import random
+
+tim = Turtle()
+colours = ['red', 'green', 'blue','yellow','purple','orange','pink', 'black', 'brown', 'gold']
+tim.shape('arrow')
+tim.pensize(10)
+tim.speed('fastest')
+direction = [0,90,180,270,360]
+for _ in range(0,200):
+    tim.color(random.choice(colours))
+    tim.forward(30)
+    tim.left(random.choice(direction))
