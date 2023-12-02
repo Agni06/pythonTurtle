@@ -1,0 +1,8 @@
+from turtle import Turtle, Screen
+
+timmy = Turtle()
+timmy.shape("turtle")
+timmy.color("red")
+for i in range(0, 3):
+    timmy.forward(200)
+    timmy.left(120)
