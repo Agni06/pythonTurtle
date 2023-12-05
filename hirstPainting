@@ -1,0 +1,22 @@
+from turtle import Turtle
+import random
+tim = Turtle()
+tim.colormode(255)
+tim.penup()
+tim.speed("fast")
+tim.hideturtle()
+rgb_colors
+tim.dot(20,random.choice(rgb_colors))
+tim.setheading(255)
+tim.forward(300)
+tim.setheading(0)
+for dotCount in (1,100+1):
+    tim.color(random.choice(rgb_colors))
+    tim.forward(50)
+    if(dotCount%10==0):
+        tim.left(90)
+        tim.forward(50)
+        tim.setheading(180)
+        tim.forward(500)
+        tim.setheading(0)
+
