@@ -1,7 +1,6 @@
 from random import random
 from turtle import Turtle, Screen
 import random
-
 tim = Turtle()
 colours = ['red', 'green', 'blue','yellow','purple','orange','pink', 'black', 'brown', 'gold']
 tim.shape('arrow')
